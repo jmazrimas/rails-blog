@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+
+.intro-header {
+	height: 300px;
+}
+
+.site-heading {
+	padding-top: 100px;
+	color: white;
+}
+
+.site-heading h1 {
+	font-size: 4em;
+}

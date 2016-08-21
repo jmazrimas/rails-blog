@@ -1,1 +1,9 @@
-<h3>This is an index of posts</h3>
+<h1>This is an index of posts</h1>
+
+<% @posts.each do |post| %>
+	<div class="post-preview">
+		<h2 class="post-title"> <%= link_to post.title, post %> </h2>
+		<p class="post-meta">data and such</p>
+	</div>
+	<hr>
+<% end %>
